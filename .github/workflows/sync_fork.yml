@@ -28,6 +28,7 @@ jobs:
                   upstream_sync_branch: main
                   target_sync_branch: main
                   test_mode: false
+                  exclude: ".github/workflows"
 
             - name: Check for new commits
               if: success()
